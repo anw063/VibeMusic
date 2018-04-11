@@ -1,6 +1,3 @@
-# cse-110-team-project-team-18
-cse-110-team-project-team-18 
-
 # Vibe Music
 
 Vibe Music is an Android app that adaptively selects music to play based on your location, time of day, and other users. Like any music player, you can select tracks or albums to play.
