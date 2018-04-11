@@ -1,17 +1,17 @@
 # cse-110-team-project-team-18
-cse-110-team-project-team-18 created by GitHub Classroom
+cse-110-team-project-team-18 
 
-# Flashback Music
+# Vibe Music
 
-Flashback Music is an Android app that adaptively selects music to play based on your location and time of day to help bring back memories of past times.  Like any music player, you can select tracks or albums to play.
+Vibe Music is an Android app that adaptively selects music to play based on your location, time of day, and other users. Like any music player, you can select tracks or albums to play.
 
-# Flashback Music v1.0
+# Vibe Music v1.0
 
-While Flashback Music is put into flashback mode, it automatically selects tracks to remind you of past times:  If you played a track at a place, you're more likely to hear that track when you return to that place again.  The same goes for time-of-day and day of the week.  Whether you're in flashback mode or not, the player displays the date, time, and place when the track was last played.  You can indicate a track is a favorite by clicking the + button next to the track, which will turn into a check mark and increase the chance of the track being played in flashback mode.  More recently played tracks are more likely to be played in flashback mode, but even the least-recently-played track has a chance of being played again.  If you don't want to hear a track again, clicking the + twice (or the check mark once) will indicate dislike, and an "x" will be displayed in place of the + or checkmark that was previously displayed.  Such a track will not be played in flashback mode, nor when an album containing the track is played.  Clicking the "x" returns the track's status to the neutral +.
+The first iteration of Vibe Music involves a flashback mode, which automatically selects tracks to remind you of past times:  If you played a track at a place, you're more likely to hear that track when you return to that place again.  The same goes for time-of-day and day of the week.  Whether you're in flashback mode or not, the player displays the date, time, and place when the track was last played.  You can indicate a track is a favorite by clicking the + button next to the track, which will turn into a check mark and increase the chance of the track being played in flashback mode.  More recently played tracks are more likely to be played in flashback mode, but even the least-recently-played track has a chance of being played again.  If you don't want to hear a track again, clicking the + twice (or the check mark once) will indicate dislike, and an "x" will be displayed in place of the + or checkmark that was previously displayed.  Such a track will not be played in flashback mode, nor when an album containing the track is played.  Clicking the "x" returns the track's status to the neutral +.
 
-# Flashback Music v2.0 (In progress)
+# Vibe Music v2.0 
 
-With Flashback Music 2.0, we introduce a replacement for Flashback Mode, called Vibe Mode (VM), which builds a playlist based on what others around you have been listening to recently.  When FBM is put into Vibe Mode, it automatically selects tracks based on what others around you have been listening to.  Priority is given to a track based on first (a) whether it was played near the user's present location, second (b) whether it was played in the last week, and third (c) whether it was played by a friend.  When multiple of these factors are present, each is given equal weight in producing the ordering of tracks.  Ties are broken according to the (a)-to-(c) ordering of the preceding criteria.
+With Vibe Music 2.0, we introduce a replacement for Flashback Mode, called Vibe Mode (VM), which builds a playlist based on what others around you have been listening to recently.  When FBM is put into Vibe Mode, it automatically selects tracks based on what others around you have been listening to.  Priority is given to a track based on first (a) whether it was played near the user's present location, second (b) whether it was played in the last week, and third (c) whether it was played by a friend.  When multiple of these factors are present, each is given equal weight in producing the ordering of tracks.  Ties are broken according to the (a)-to-(c) ordering of the preceding criteria.
 
 Because the track list in Vibe Mode could include any possible song, FBM now includes the ability to stream supports downloading tracks from remote sources (e.g., the same source from which another user streamed downloaded the track), rather than storing tracks.  And because Vibe Mode tracks are not stored locally, FBM remembers all the Vibe Mode tracks you've played, and All the tracks you've downloaded can be sorted according to title, album, artist, or favorite status.
 
